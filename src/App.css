@@ -1,0 +1,97 @@
+/* .App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: black;
+}
+
+.loginForm{
+  align-content: center;
+  align-items: center; 
+  justify-content: space-around;
+  font-family:'Courier New', Courier, monospace;
+  margin:20% auto; 
+  width: 500px;
+  background-color: gray;
+  padding: 30px;
+  border-radius: 40px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+} */
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login,
+.register {
+  width: 400px;
+}
+
+.login h2,
+.register h2 {
+  font-size: 45px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.login a {
+  text-align: center;
+}
+
+input[type='text'] {
+  background-color: #e6e6e6;
+  color: #827ffe;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: none;
+  width: 85%;
+  padding: 20px 30px;
+}
+
+input[type='password'] {
+  background-color: #e6e6e6;
+  padding: 20px 30px;
+  color: #827ffe;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: none;
+  width: 85%;
+}
+
+input[type='submit'] {
+  padding: 15px 0px;
+  background-color: #827ffe;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: none;
+  width: 100%;
+}
+
+.check {
+  font-size: 16px;
+}
